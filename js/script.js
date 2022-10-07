@@ -7,9 +7,9 @@ console.log(km, age, priceForNumbKm)
 
 const ticketPrice = function(){
         if(age < 18){
-            priceForNumbKm = priceForNumbKm * 0.8;
+            priceForNumbKm = priceForNumbKm * 0.80;
         } else if(age > 65){
-            priceForNumbKm = priceForNumbKm * 0.6;
+            priceForNumbKm = priceForNumbKm * 0.60;
         } else {
             priceForNumbKm = priceForNumbKm;
         }

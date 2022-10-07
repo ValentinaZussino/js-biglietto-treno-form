@@ -1,1 +1,8 @@
-body {background-color: dodgerblue; padding: 50px;}
+body {
+    background-image: linear-gradient(black, rgba(21, 21, 21, 0.814));
+    height: 100vh;
+    padding-top: 200px;
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

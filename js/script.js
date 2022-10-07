@@ -1,6 +1,6 @@
-
+// prendo bottone calcola
 const btnCalc = document.getElementById('btn-calcola');
-
+// funzione per calcolo prezzo con o senza sconto + arrotondamento + stampa in dom
 const ticketPrice = function(){
     const km = document.getElementById('km').value;
     const age = document.getElementById('age').value;
@@ -13,7 +13,8 @@ const ticketPrice = function(){
             priceForNumbKm = priceForNumbKm;
         }
         console.log(priceForNumbKm);
-        document.getElementById("ticket-price").innerHTML = priceForNumbKm.toFixed(2) + ' &euro;';
+        document.getElementById("ticket-price").innerHTML = 'Ecco il costo del tuo ticket: ' + priceForNumbKm.toFixed(2) + ' &euro;';
+        event.preventDefault();
 }
-
+// on click
 btnCalc.addEventListener('click', ticketPrice);

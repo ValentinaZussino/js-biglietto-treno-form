@@ -12,8 +12,8 @@ const ticketPrice = function(){
         } else {
             priceForNumbKm = priceForNumbKm;
         }
-        priceForNumbKm = priceForNumbKm.toFixed(2);
         console.log(priceForNumbKm);
+        document.getElementById("ticket-price").innerHTML = priceForNumbKm.toFixed(2) + ' &euro;';
 }
 
 btnCalc.addEventListener('click', ticketPrice);

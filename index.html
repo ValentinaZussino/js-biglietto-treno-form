@@ -12,17 +12,18 @@
 <body>
     <h1>benvenuto su TicketTrain</h1>
     <p class="mb-5">Inserisci i dati richiesti di seguito per calcolare il prezzo del tuo biglietto</p>
-    <form action="">
+    <form action="" class="w-50 m-auto pb-4">
         <label for="distance" class="pe-2 mb-4">Inserisci i km da percorrere</label>
         <input type="number" placeholder="0" id="km" name="distance">
         <br>
         <label for="user-age" class="pe-2 mb-4">Inserisci la tua età</label>
         <input type="number" placeholder="0" id="age" class="user-age">
         <br>
-        <button type="submit" id="btn-calcola" class="btn btn-outline-light rounded-pill px-3 py-1 my-4">Calcola</button>
-        <p id="ticket-price" class="fs-4">Ecco il costo del tuo ticket:</p>
-        <button class="btn btn-success rounded-pill fw-bold px-3 py-1 mt-2">Clicca per acquistare</button>
-    </form>     
+        <button type="submit" id="btn-calcola" class="btn btn-outline-light rounded-pill px-3 py-1 mt-1">Calcola</button>
+    </form> 
+    <p id="ticket-price" class="fs-4">Ecco il costo del tuo ticket:</p>
+    <p id="discount-applied"></p>
+    <button class="btn btn-success rounded-pill fw-bold px-3 py-1 mt-2">Clicca per acquistare</button>  
     <!-- js -->
     <script src="./js/script.js"></script>
 </body>

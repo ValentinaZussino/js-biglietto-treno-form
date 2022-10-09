@@ -1,6 +1,6 @@
 // prendo bottone calcola
 const btnCalc = document.getElementById('btn-calcola');
-// funzione per calcolo prezzo con o senza sconto + arrotondamento + stampa in dom
+// funzione per calcolo prezzo con o senza sconto + arrotondamento + stampa in pagina
 const ticketPrice = function(){
     const km = document.getElementById('km').value;
     const age = document.getElementById('age').value;

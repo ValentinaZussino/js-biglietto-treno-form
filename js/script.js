@@ -16,7 +16,7 @@ const ticketPrice = function(){
             document.getElementById("discount-applied").innerHTML = 'Nessuna scontistica prevista'
         }
         console.log(priceForNumbKm);
-        document.getElementById("ticket-price").innerHTML = 'Ecco il costo del tuo ticket: ' + priceForNumbKm.toFixed(2) + ' &euro;';
+        document.getElementById("ticket-price").innerHTML = priceForNumbKm.toFixed(2) + ' &euro;';
         event.preventDefault();
 }
 // on click
